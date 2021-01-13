@@ -2,9 +2,9 @@ class LeapYearCal
 
 def leap_year(year)
   if year % 400 == 0 || year % 4 == 0 && !(year % 100 == 0 )
-   true
+   "LEAP YEAR!"
  else
-   false
+   "Not a leap year"
  end
 end
 
